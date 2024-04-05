@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+/*bears*/
+#bears {
+  background-image: url("bears.jpeg");
+  background-size: cover;
+  width: 100vw;
+  height: 70vw;
+}
+
+#bears p {
+  line-height: 130vw;
+  font-family: font3;
+  font-size: 2.5vw;
+  text-align: center;
+  color: yellow;
+  text-shadow: 3px 3px black;
+}
+
+/*welcome*/
+#welcome {
+  height: 50vw;
+  background-color: pink;
+  margin: 0;
+  padding: 10vw;
+}
+
+#welcome h2 {
+  margin-top: -8vw;
+  font-family: font2;
+  font-size: 7vw;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px rgb(192,80,93);
+}
+
+#welcome p {
+  /*margin-top: -4vw;*/
+  font-family: font1;
+  font-size: 4vw;
+  text-align: justify;
+  color: white;
+}
+
+#welcome iframe {
+  padding: 1vw;
+  border: 3px solid white;
+  width: 30vw;
+  height: 30vw;
+  margin-top: 3vw;
+  margin-left: 24vw;
+}
+
+/*pond*/
+#pond {
+  background-image: url("pond.jpeg");
+  background-size: cover;
+  width: 100vw;
+  height: 70vw;
+}
+
+#pond h2 {
+  line-height: 30vw;
+  font-family: font1;
+  font-size: 9vw;
+  text-align: center;
+  text-shadow: 4px 4px rgb(246,223,166);
+}
+
+#pond p {
+  margin-top: -11vw;
+  font-family: font1;
+  font-size: 2vw;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+#pond textarea {
+  width: 50%;
+  height: 27vw;
+  resize: none;
+  margin-top: 4vw;
+  margin-left: 25vw;
+  border: 4px double rgb(255,166,0);
+  font-family: font1;
+  font-size: 2vw;
+}
+
+/*puppy*/
+#puppy {
+  background-image: url("puppy.jpeg");
+  background-size: cover;
+  width: 100vw;
+  height: 70vw;
+}
+
+#puppy p {
+  line-height: 130vw;
+  font-family: font3;
+  font-size: 2.5vw;
+  text-align: center;
+  color: yellow;
+  text-shadow: 3px 3px black;
+}
+
+/*envelope*/
+#envelope {
+  background-image: url("yellow.jpeg");
+  background-size: cover;
+  width: 100vw;
+  height: 70vw;
+}
+
+#envelope h2 {
+  font-family: font2;
+  font-size: 6vw;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px rgb(255,173,90);
+}
+
+#mainQuote {
+  font-family: font1;
+  font-size: 1.6vw;
+  text-align: center;
+  position: absolute;
+  top: 235vw;
+  left: 35vw;
+}
+
+#clickMe {
+  font-family: font1;
+  font-size: 2vw;
+  position: absolute;
+  color: white;
+  top: 252vw;
+  left: 45vw;
+}
+
+#quoteButton {
+  margin-top: -20vw;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+#quoteButton: hover {
+  box-shadow: 0 0 10vw 10vw white;
+}
+
+/*flowers*/
+#resources {
+  /*margin-top: 4vw;*/
+  background-image: url("flowers.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 70vw;
+}
+
+#resources h2 {
+  /*margin-top: -67vw;*/
+  font-family: font2;
+  font-size: 6vw;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px rgb(221,129,86);
+}
+
+#hotlines {
+  font-family: font1;
+  font-size: 5vw;
+  text-align: center;
+  color: rgb(253,190,123);
+}
+
+#helpline {
+  text-align: center;
+}
+
+#helpline a{
+  text-decoration: none;
+  font-family: font1;
+  font-size: 3vw;
+  color:white;
+}
+
+#helpline a:hover {
+  text-decoration: underline;
+  text-shadow: 4px 4px rgb(253,190,123);
+}
+
+#therapyServices {
+  font-family: font1;
+  font-size: 5vw;
+  text-align: center;
+  color: rgb(255,96,116);
+}
+
+#therapy {
+  text-align: center;
+}
+
+#therapy a{
+  text-decoration: none;
+  font-family: font1;
+  font-size: 3vw;
+  color:white;
+}
+
+#therapy a:hover {
+  text-decoration: underline;
+  text-shadow: 4px 4px rgb(255,96,116);
+}
+
+#ig {
+  font-family: font1;
+  font-size: 5vw;
+  text-align: center;
+  color: rgb(122,164,141);
+}
+
+#instagram {
+  text-align: center;
+}
+
+#instagram a{
+  text-decoration: none;
+  font-family: font1;
+  font-size: 3vw;
+  color:white;
+}
+
+#instagram a:hover {
+  text-decoration: underline;
+  text-shadow: 4px 4px rgb(122,164,141);
+}
+
+@font-face {
+  font-family: font1;
+  src: url(winkle.ttf);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(shorelines.otf);
+}
+
+@font-face {
+  font-family: font3;
+  src: url(italic.otf);
+}
